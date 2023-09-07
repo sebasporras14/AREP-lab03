@@ -1,6 +1,6 @@
-# Web Server
+# MICROFRAMEWORKS WEB
 
-Este proyecto busca solucionar el ejercicio dado de escribir un servidor web concurrente que soporte múltiples solicitudes. El servidor web deberá retornar los archivos solicitados, incluyendo páginas HTML, imágenes y archivos .js.
+Este proyecto busca crear aplicaciones web por medio de funciones lamda explorando la arquitectura del microframework denominado sparkweb
 
 ## Diseño
 
@@ -14,7 +14,7 @@ Este proyecto busca solucionar el ejercicio dado de escribir un servidor web con
 Una vez clonado el proyecto y generado el jar con los siguientes comandos:
 
 ~~~
-git clone https://github.com/sebasporras14/AREP-lab02.git
+git clone https://github.com/sebasporras14/AREP-lab03.git
 ~~~
 ~~~
 mvn package
@@ -23,7 +23,7 @@ mvn package
 se puede ejecutar con:
 
 ~~~
-java -cp "./target/classes" edu.escuelaing.arep.app.HttpServer
+java -cp "./target/classes" edu.escuelaing.arep.app.MiniSpark
 ~~~
 una vez aparezca "Listo para recibir", en su navegador ingrese:
 
@@ -31,22 +31,15 @@ una vez aparezca "Listo para recibir", en su navegador ingrese:
 Http://LocalHost:35000/"el archivo html, imagen o js"
 ~~~
 
-### prueba HTML,JPG o PNG, .js
+### prueba POST Y GET
 
-Al colocar los siguientes comandos se obtiene:
+Al colocar los siguiente:
 ~~~
 Http://LocalHost:35000/index.html"
 ~~~
-~~~
-Http://LocalHost:35000/img.jpg
-~~~
-~~~
-Http://LocalHost:35000/img2.png
-~~~
-~~~
-Http://LocalHost:35000/prueba.js"
-~~~
-![test](https://github.com/sebasporras14/AREP-lab02/blob/master/imagenes/pruebas.png)
+Se abre un formulario que te saludara de acuerdo al nombre escrito utilizando metedos get y post respectivamente.
+
+![test](https://github.com/sebasporras14/AREP-lab03/blob/master/imagenes/pruebanewhtml.png)
 
 ## Construido con 
 * [Maven](https://maven.apache.org/) - Dependency Management
