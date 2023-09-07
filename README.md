@@ -2,13 +2,6 @@
 
 Este proyecto busca crear aplicaciones web por medio de funciones lamda explorando la arquitectura del microframework denominado sparkweb
 
-## Diseño
-
-### Diagrama de clases 
-
-![class diagram](https://github.com/sebasporras14/AREP-lab02/blob/master/imagenes/clases.png)
-
-
 ## Corriendo el proyecto
 
 Una vez clonado el proyecto y generado el jar con los siguientes comandos:
